@@ -1125,6 +1125,7 @@ h5,
 }
 .trade {
   width: 100px;
+  border-radius: 20px;
 }
 
 .scrollToTop {
@@ -1158,4 +1159,3 @@ h5,
     border-color: transparent;
   }
 }
-
