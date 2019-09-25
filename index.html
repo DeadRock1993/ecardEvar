@@ -4,10 +4,11 @@
     <title>«Ёвар» &mdash; Сеть супермаркетов</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -21,7 +22,7 @@
   </head>
   <body>
   
-  <div class="site-wrap">
+  <div class="site-wrap evar-header">
 
     <div class="site-mobile-menu">
       <div class="site-mobile-menu-header">
@@ -34,27 +35,39 @@
     
     <header class="site-navbar py-3" role="banner">
       <div class="container-fluid">
-        <div class="row align-items-center">
+        <div class="row align-items-center mg15">
           <div class="col-11 col-xl-2">
-            <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0"><img class="main-logo" src="images/logo-white.png"></a></h1>
+            <h1 class="mb-0"><a href="index.html" class=" h2 mb-0"><img class="main-logo" src="images/logo.svg"></a></h1>
           </div>
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
-                <li class="active"><a href="index.html">Главная</a></li>
-                <li><a href="#about-us">О компании</a></li>
-                <li><a href="#locations">Наши торговые точки</a></li>
-                <li><a href="#sponsors">Партнеры</a></li>
-                <li class="cta"><a href="#footer">Связаться с нами</a></li>
+                <li><a href="#">Кабинет</a></li>
+                <li><a href="#cardE">Карта Ё</a></li>
+                <li><a href="#cashback">Кэшбэк</a></li>
+                <li><a href="#status">Статусы</a></li>
+                <li><a href="#block">Карты</a></li>
+                <li><a href="#restriction">Ограничения</a></li>
               </ul>
             </nav>
           </div>
-          <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
+          <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle "><span class="icon-menu h3"></span></a></div>
+          </div>
+        </div>
+        <div class="flex fluid">
+          <div class="ourTime">
+          </div>
+          <div class="welcome">
+            <p class="wel-sign">Добро пожаловать,<br/><span class="happy">счастливый</span>  Держатель<br>КАРТЫ «Ё»!</p>
+            <p class="text">
+                На этом портале ты найдешь всю нужную информацию об уникальной и выгодной программе лояльности компании «Ёвар».
+            </p>
           </div>
         </div>
       </div>
     </header>
-
+  
+    <!--
     <div class="site-section site-hero">
       <div class="container">
         <div class="row align-items-center">
@@ -67,88 +80,204 @@
         </div>
       </div>
     </div>
+    -->
 
-    
-
-
-    <div class="site-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="site-section-heading">
-              <h2 id="about-us">О компании</h2>
-            </div>
-          </div>
-          <div class="col-lg-5 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="200">
-            <p>Супермаркеты «ЁВАР» предлагают своим покупателям широкий выбор свежих и качественных продуктов питания и предметов бытовой химии от местных и зарубежных производителей.</p>
-          </div>
+  <div id="owl-demo" class="owl-carousel owl-theme">
+  
+      <div class="item">
+        <div class="slider">
+          <p class="allText">
+            <span class="text1"> Покупай!</span> <span class="text1"> Копи! </span> <br>
+            <span class="text2"> И покупки свои </span> <br> 
+            <span class="text1"> кэшбеком оплати! </span>
+          </p>
+          <img class="slide1" src="/images/slide1.png" alt="cashBack">
         </div>
-
-        <div class="row align-items-center speaker">
-          <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
-            <img src="images/DSC_9681.png" alt="Image" class="img-fluid zoom">
-          </div>
-          <div class="col-lg-6 ml-auto">
-            <h2 class="text-white mb-4 name" data-aos="fade-right" data-aos-delay="200">О нас</h2>
-            <div class="bio pl-lg-5">
-              <span class="text-uppercase text-primary d-block mb-3" data-aos="fade-right" data-aos-delay="300">Web Designer</span>
-              <p class="mb-4" data-aos="fade-right" data-aos-delay="400">«ЁВАР» предлагает своим покупателям широчайший выбор мясной продукции, продуктов питания, бытовой химии, товаров народного потребления и товаров для дома. Ассортимент Сети составляет более 20 000 наименований. «ЁВАР предлагает своим покупателям на выбор товары зарубежных и местных компаний.</p>
-              <p data-aos="fade-right" data-aos-delay="500">
-                Follow Emely &mdash;
-                <a href="#" class="p-2"><span class="icon-facebook"></span></a>
-                <a href="#" class="p-2"><span class="icon-twitter"></span></a>
-                <a href="#" class="p-2"><span class="icon-github"></span></a>
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row align-items-center speaker">
-          <div class="col-lg-6 mb-5 mb-lg-0 order-lg-2" data-aos="fade" data-aos-delay="100">
-            <img src="images/DSC_9870.png" alt="Image" class="img-fluid zoom">
-          </div>
-          <div class="col-lg-6 ml-auto order-lg-1">
-            <h2 class="text-white mb-4 name" data-aos="fade-left" data-aos-delay="200">Мы искренне считаем:</h2>
-            <div class="bio pr-lg-5">
-              <span class="text-uppercase text-primary d-block mb-3" data-aos="fade-left" data-aos-delay="300">Web Designer</span>
-              <p class="mb-4" data-aos="fade-left" data-aos-delay="400">Здоровье — главная ценность в жизни человека, основа будущего.
-                Честность и уважение – основа отношений.
-                Бизнес обязан быть социально ответственным – не на словах, а на деле.
-                Любое дело, а тем более то, которое связано с благополучием человека, необходимо делать профессионально.</p>
-              <p data-aos="fade-left" data-aos-delay="500">
-                Follow Alex &mdash;
-                <a href="#" class="p-2"><span class="icon-facebook"></span></a>
-                <a href="#" class="p-2"><span class="icon-twitter"></span></a>
-                <a href="#" class="p-2"><span class="icon-github"></span></a>
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row align-items-center speaker">
-          <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
-            <img src="images/DSC_9808.png" alt="Image" class="img-fluid zoom">
-          </div>
-          <div class="col-lg-6 ml-auto">
-            <h2 class="text-white mb-4 name" data-aos="fade-right" data-aos-delay="200">Наши ценности</h2>
-            <div class="bio pl-lg-5">
-              <span class="text-uppercase text-primary d-block mb-3" data-aos="fade-right" data-aos-delay="300">Web Designer</span>
-              <p class="mb-4" data-aos="fade-right" data-aos-delay="400">В основе концепции «ЁВАР» лежит идея правильного питания, здорового образа жизни и возрождения культурных традиций. Именно она двигала нами, когда мы в 2013 году задумали открыть свой первый магазин по продаже свежих мясных продуктов Мясной Маркет «ЁВАР»</p>
-              <p data-aos="fade-right" data-aos-delay="500">
-                Follow Aaron &mdash;
-                <a href="#" class="p-2"><span class="icon-facebook"></span></a>
-                <a href="#" class="p-2"><span class="icon-twitter"></span></a>
-                <a href="#" class="p-2"><span class="icon-github"></span></a>
-              </p>
-            </div>
-          </div>
-        </div>
-        
       </div>
+      <div class="item">
+        <div class="slider">
+
+        <img class="slide2" src="/images/coin.png" alt="cashBack">
+        <img class="slide2" src="/images/cash3.png" alt="cashBack">
+
+        </div>
+      </div>
+
+      <div class="item">
+          <div class="slider">
+  
+          <img class="slide3" src="/images/cash4.png" alt="cashBack">
+          <img class="slide3-smile" src="/images/proc.png" alt="cashBack">
+  
+          </div>
+       </div>
+
+       <div class="item">
+          <div class="slider">
+  
+          <img class="slide4" src="/images/buythings.png" alt="cashBack">
+          <img class="slide4-dif" src="/images/getcashback.png" alt="cashBack">
+          <img class="slide4-dif" src="/images/paywithcashback.png" alt="cashBack">
+          <img class="slide4" src="/images/offfers.png" alt="cashBack">
+  
+          </div>
+       </div>
+
+       <div class="item">
+          <div class="slider">
+  
+          <p class="allText allTxtLine">
+            <span class="text3">Чем больше</span><br>
+            <span class="text4"> И чаще у нас покупаешь</span><br> 
+            <span class="text5"> тем больше кэшбека <br> на карту получаешь!</span>
+          </p>
+          <img class="slide5" src="/images/slide.png" alt="cashBack">
+  
+          </div>
+       </div>
+  </div>
+    
+    <div class="site-section">
+        <div class="container-fluid">
+        
+          
+          <div class="row">
+             
+              <div class="col-md-4 bio pr-lg-5 bg-card">
+                <h1 id="cardE" class="mb-4 name red-head" data-aos="fade-left" data-aos-delay="200">Карта «Ё»</h1>
+                <p class="mb-4" data-aos="fade-left" data-aos-delay="400">
+                  Пластиковая карта с чипом, магнитной лентой,<br>
+                  а так же с уникальным номером для<br>
+                  индентификации покупателя с целью<br>
+                  начисления и списания КЭШБЕКА. <br>
+                  <br>
+                  Стоимость КАРТЫ «Ё» <br>
+                  состовляет <span class="red"> 20 сомони! </span><br>
+                </p>
+              </div>
+              <div class="col-md-8">
+              <img src="images/card.png" alt="Image" class="img-fluid zoom cofe">
+              </div>
+          </div>
+          
+          <div class="row mt-5">
+             
+              <div class="col-md-6 bio pr-lg-5 mtop">
+                <h1 id="cashback" class="mb-4 name red-head" data-aos="fade-left" data-aos-delay="200">Кэшбэк</h1>
+                <p class="mb-4" data-aos="fade-left" data-aos-delay="400">
+                  КЭШБЕК - это возврат наличных денег, зачислимых на баланс.
+                  Карты за совершенную покупку в одном из супермаркетов "«ЁВАР»".
+                  С каждой Вашей покупки с КАРТОЙ «Ё» на её баланс начисляется КЭШБЕК!
+                  <div class="green-block">
+                    С помощью накопленного КЭШБЕКА на КАРТЕ «Ё», Вы можете оплатить свою покупку до 100%* от суммы чека! 
+                  </div>
+                  Начисление КЭШБЕКА проводится при любом способе оплаты товаров:
+                  наличными, банковской картой и/или другими доступными законными 
+                  способами, кроме оплаты КЭШБЕКОМ!
+                </p>
+              </div>
+
+              <div class="col-md-6 center">
+              <img src="images/girl.png" alt="Image" class="img-fluid zoom girl">
+              </div>
+          </div>
+
+          
+          <div class="row mt-5">
+             
+              <div class="col-md-6 bio pr-lg-5 mtop">
+                <h1 class="mb-4 name red-head" data-aos="fade-left" data-aos-delay="200">Программа лояльности компании «ЁВАР»</h1>
+                <p class="mb-4" data-aos="fade-left" data-aos-delay="400">
+                  Система поощрений постоянных покупателей сети супермаркетов «ЁВАР» за приверженность Бренду «ЁВАР» и развитие долгосрочных отношений!
+                  <div class="green-block">
+                    Чем больше и чаще покупатель совершает покупок, тем больше бонусов он получает!
+                  </div>
+                </p>
+              </div>
+
+              <div class="col-md-6 center">
+              <img src="images/hands.png" alt="Image" class="img-fluid zoom hands">
+              </div>
+          </div>
+
+          <div class="row mt-5">
+             
+              <div class="col-md-6 bio pr-lg-5">
+                <h1 id="status" class="mb-4 name red-head" data-aos="fade-left" data-aos-delay="200">Статуcы карты «Ё»</h1>
+                <p class="mb-4" data-aos="fade-left" data-aos-delay="400">
+                    <div class="green-block">
+                        В Программе Лояльности компании «ЁВАР» действуют 3 вида СТАТУСОВ КАРТЫ «Ё».
+                    </div>
+                    Для начисления КЭШБЕКА, необходимо чтобы Вы при совершении покупки предъявили кассиру свою КАРТУ «Ё» до момента оплаты покупки (закрытия кассового чека)!
+                </p>
+              </div>
+
+              <div class="col-md-6 center">
+              <img src="images/status.png" alt="Image" class="img-fluid zoom hands">
+              </div>
+          </div>
+
+          <div class="row mt-5">
+             
+              <div class="col-md-6 bio pr-lg-5 mtop">
+                <h1 class="mb-4 name red-head" data-aos="fade-left" data-aos-delay="200">Анкета держателя КАРТЫ «Ё»</h1>
+                <p class="mb-4" data-aos="fade-left" data-aos-delay="400">
+                    Это бумажная регистрационная форма, содержащая Ваши персональные данные и согласие на их обработку.
+                    <div class="green-block gb-1">
+                      Переданная Вами Анкета является основанием для активации Вашей КАРТЫ «Ё» и даёт право на доступ ко всем услугам действующей Программы Лояльности!
+                    </div>
+                </p>
+              </div>
+              
+              <div class="col-md-6 center">
+              <img src="images/anketa.png" alt="Image" class="img-fluid zoom hands">
+              </div>
+          </div>
+
+          <div class="row mt-5">
+             
+              <div class="col-md-6 bio pr-lg-5">
+                <h1 id="block" class="mb-4 name red-head" data-aos="fade-left" data-aos-delay="200">Блокировака Карты «Ё»</h1>
+                <p class="mb-4" data-aos="fade-left" data-aos-delay="400">
+                    <div class="green-block gb-1">
+                      ! В случае, если Вы испортили или потеряли свою КАРТУ «Ё» необходимо её сразу заблокировать.
+                    </div>  
+                    <span class="red">!</span> Для блокировки КАРТЫ «Ё» и последующего восстановления, накопленного КЭШБЭКА, Вам необходимо будет обратиться к Администрации любого супермаркета сети «ЁВАР» и написать заявление согласно установленному шаблону и прикрепить копию своего паспорта в обязательном порядке.
+                    <br>
+                    <br>
+                    <span class="red">!</span>  После покупки новой КАРТЫ «Ё», осуществления её активации и реализации необходимых процедур, баланс утерянной Карты на момент блокировки будет восстановлен и накопленный КЭШБЭК будет переведен на новую Вашу Карту.
+                </p>
+              </div>
+              
+              <div class="col-md-6 center">
+              <img src="images/blockCard.png" alt="Image" class="img-fluid zoom hands cards">
+              </div>
+          </div>
+
+          <div class="row mt-5">
+             
+              <div class="col-md-6 bio pr-lg-5">
+                <h1 id="restriction" class="mb-4 name red-head" data-aos="fade-left" data-aos-delay="200">Ограничения по карте «Ё»</h1>
+                <p class="mb-4" data-aos="fade-left" data-aos-delay="400">
+                  <span class="red">1)</span>КЭШБЭК не начисляется при оплате покупок КЭШБЭКОМ!<br>
+                  <span class="red">2)</span>КЭШБЭК НЕ начисляется на КАРТУ «Ё», а также НЕ списывается с Карты при покупке алкогольной и табачной продукции!<br>
+                  <span class="red">3)</span>КЭШБЭК НЕ начисляется на КАРТУ «Ё», а также НЕ списывается с Карты при покупке товаров, реализующихся в сети супермаркетах «ЁВАР» по Акции, Скидке, Уценки и иных Спец. Предложениях, действующих на момент покупки!<br>
+                  <span class="red">4)</span>КЭШБЭК НЕ начисляется на КАРТУ «Ё», в случае, если количество покупок в супермаркетах сети «ЁВАР» по 1 Карте за 1 сутки (24 часа) превышает <span class="red"> 10 покупок. </span><br> 
+                  <span class="red">5)</span>Максимальный баланс 1 КАРТЫ «Ё» не должен превышать 70 000 (семьдесят тысяч) сомони.
+                </p>
+              </div>
+              <div class="col-md-6 center">
+              <img src="images/restrictions.png" alt="Image" class="img-fluid zoom hands cards">
+              </div>
+          </div>
+
+
+
+        </div>  
     </div>
 
 
-    
+    <!--
     <div class="site-section">
       <div class="container">
         <div class="row mb-5">
@@ -165,9 +294,9 @@
         <div class="row align-items-stretch program">
           <div class="col-12 border-top border-bottom py-5" data-aos="fade" data-aos-delay="200">
             <div class="row align-items-stretch">
-              <div class="col-md-3 text-white mb-3 mb-md-0"><img class="trade" src="images/asd.jpg" alt="evar-markets"></div>
+              <div class="col-md-3  mb-3 mb-md-0"><img class="trade" src="images/asd.jpg" alt="evar-markets"></div>
               <div class="col-md-9">
-                <h2 class="text-white">Сеть супермаркетов</h2>
+                <h2 class="">Сеть супермаркетов</h2>
                 <span>Супермаркеты «ЁВАР» предлагают своим покупателям широкий выбор свежих и качественных продуктов питания и предметов бытовой химии от местных и зарубежных производителей.</span>
               </div>
             </div>
@@ -175,9 +304,9 @@
 
           <div class="col-12 border-bottom py-5" data-aos="fade" data-aos-delay="300">
             <div class="row align-items-stretch">
-              <div class="col-md-3 text-white mb-3 mb-md-0"><img class="trade" src="images/asda-o00hhsbdl790n1b15efl8xkcmvs1gp3qdanoehh86u.jpg" alt="evar-markets"></div>
+              <div class="col-md-3  mb-3 mb-md-0"><img class="trade" src="images/asda-o00hhsbdl790n1b15efl8xkcmvs1gp3qdanoehh86u.jpg" alt="evar-markets"></div>
               <div class="col-md-9">
-                <h2 class="text-white">Мясной маркет</h2>
+                <h2 class="">Мясной маркет</h2>
                 <span>В основе концепции Мясных Маркетов лежит идея правильного питания и возрождения культурных традиций. Свежее и качественное мясо является отличительной особенностью «ЁВАР».</span>
               </div>
             </div>
@@ -185,9 +314,9 @@
 
           <div class="col-12 border-bottom py-5" data-aos="fade" data-aos-delay="400">
             <div class="row align-items-stretch">
-              <div class="col-md-3 text-white mb-3 mb-md-0"><img class="trade" src="images/assssda-o00hht97s1aayn9nzwu7tfbt89neoe7gpfb5vrfu0m.jpg" alt="evar-markets"></div>
+              <div class="col-md-3  mb-3 mb-md-0"><img class="trade" src="images/assssda-o00hht97s1aayn9nzwu7tfbt89neoe7gpfb5vrfu0m.jpg" alt="evar-markets"></div>
               <div class="col-md-9">
-                <h2 class="text-white">Кондитерский Дом "МИЛЛИ"</h2>
+                <h2 class="">Кондитерский Дом "МИЛЛИ"</h2>
                 <span>Кондитерский дом «Милли» производит всевозможные кондитерские и хлебобулочные изделия для сети супермаркетов «Ёвар», а также для других торговых точек в городе Душанбе.</span>
               </div>
             </div>
@@ -231,8 +360,10 @@
         </div>
       </div>
     </div>
-    
-    <a href="#" class="scrollToTop"></a>
+    -->
+
+
+    <a href="#" class="scrollToTop fa fa-arrow-up"></a>
     <footer id="footer" class="site-footer">
       <div class="container">
         <div class="row mb-5">
@@ -290,6 +421,6 @@
   <script src="js/aos.js"></script>
 
   <script src="js/main.js"></script>
-    
+
   </body>
 </html>
